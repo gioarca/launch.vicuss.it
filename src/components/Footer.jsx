@@ -41,7 +41,7 @@ function Footer() {
 
         {/* Copyright */}
         <div className="text-center text-xs text-gray-500">
-          <p>© 2025 | {t("allRightsReserved")} | Cookie policy</p>
+          <p>© 2025 | {t("allRightsReserved")}</p>
         </div>
       </div>
     </footer>
