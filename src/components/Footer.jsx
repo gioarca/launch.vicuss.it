@@ -17,38 +17,6 @@ function Footer() {
           <span className="text-xl font-semibold text-gray-800">Vicus</span>
         </a>
 
-        {/* Social */}
-        <div className="text-center">
-          <p className="font-semibold text-lg mb-4">{t("followUs")}</p>
-          <div className="flex justify-center space-x-6">
-            <a
-              href="https://www.instagram.com/vicus.sud/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition-transform duration-300 hover:scale-110 hover:opacity-70"
-            >
-              <img
-                src="https://static.vecteezy.com/system/resources/previews/014/414/683/non_2x/instagram-black-logo-on-transparent-background-free-vector.jpg"
-                alt="Instagram"
-                className="w-10 h-10 rounded-full object-cover"
-              />
-            </a>
-
-            <a
-              href="https://t.me/+itBwf1Ed0DNjMjdk"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition-transform duration-300 hover:scale-110 hover:opacity-70"
-            >
-              <img
-                src="https://frankmerenda.com/wp-content/uploads/2019/11/telegram-icon-512.png"
-                alt="Telegram"
-                className="w-10 h-10 rounded-full object-cover"
-              />
-            </a>
-          </div>
-        </div>
-
         {/* Link */}
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-6 text-sm text-gray-600">
           <a
@@ -64,7 +32,7 @@ function Footer() {
             {t("blog")}
           </a>
           <a
-            href="/contacts"
+            href="/#contact"
             className="hover:text-red-600 transition-colors duration-200"
           >
             {t("needHelp")}
@@ -73,18 +41,7 @@ function Footer() {
 
         {/* Copyright */}
         <div className="text-center text-xs text-gray-500">
-          <p>
-            © 2025{" "}
-            <a
-              href="https://gioarca.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-red-500 font-medium hover:underline"
-            >
-              Borghi
-            </a>{" "}
-            | {t("allRightsReserved")}
-          </p>
+          <p>© 2025 | {t("allRightsReserved")} | Cookie policy</p>
         </div>
       </div>
     </footer>

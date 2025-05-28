@@ -55,9 +55,11 @@ function BorgoContacts() {
             <div className="h-1 w-20 bg-red-600 mb-6"></div>
 
             <p className="text-gray-600 mb-8">
-              {t("fill_form")} {t("feedback_request_thanks")}
-              <br />
-              {t("we_reply")}
+              {/* {t("fill_form")} {t("feedback_request_thanks")} */}
+              Contattaci per pianificare la tua esperienza nelle zone rurali e
+              borghi italiani. Potrai essere aggiunto alla nostra lista di
+              viaggiatori interessati e ricevere aggiornamenti sulle nuove
+              esperienze disponibili.
             </p>
 
             <form ref={form} onSubmit={sendEmail} className="space-y-4">

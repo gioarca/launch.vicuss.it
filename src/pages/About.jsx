@@ -123,7 +123,7 @@ function About() {
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
               className="inline-block"
             >
-              <a href="/registration">
+              <a href="/#contact">
                 <button className="px-8 py-3 text-center font-semibold bg-red-800 text-white rounded-full hover:bg-white hover:text-black hover:border-2 hover:border-red-800 transition-all duration-300 focus:shadow-outline focus:outline-none shadow-md">
                   {t("signUp")}
                 </button>
