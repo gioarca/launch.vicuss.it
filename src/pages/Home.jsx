@@ -2,6 +2,7 @@ import { useRef, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import scrollToSection from "../hooks/utils/scrollToSection";
 import { StarIcon } from "@heroicons/react/20/solid";
+import Form from "../components/Form";
 
 function Home() {
   const contactRef = useRef(null);
@@ -101,7 +102,7 @@ function Home() {
           transition={{ delay: 0.6 }}
         >
           {" "}
-          📱 Porta il laptop, 🍝 assappora la tradizione, 🏛️ vivi la storia
+          💻 Porta il laptop, 🍝 assappora la tradizione, 🏛️ vivi la storia
         </motion.p>
         <motion.div
           initial={{ opacity: 0 }}
@@ -137,7 +138,7 @@ function Home() {
             >
               {" "}
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-                Perché scegliere i borghi italiani?
+                Perché scegliere i piccoli comuni italiani?
               </h2>
               <p className="text-gray-700 mb-6 text-lg leading-relaxed">
                 Immagina di aprire il laptop con vista su colline toscane, di
@@ -147,7 +148,7 @@ function Home() {
               </p>
               <p className="text-gray-700 mb-8 text-lg leading-relaxed">
                 Vicus trasforma il tuo smart working in un'avventura:
-                selezioniamo i borghi più affascinanti d'Italia, garantiamo
+                selezioniamo i luoghi più affascinanti d'Italia, garantiamo
                 connessione perfetta e organizziamo esperienze uniche che solo i
                 locali conoscono.
               </p>
@@ -179,7 +180,7 @@ function Home() {
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <span className="text-red-600 font-bold">🍷</span>
+                    <span className="text-red-600 font-bold"> 🍕</span>
                     <div>
                       <h4 className="font-semibold text-gray-900">
                         Sapori Unici
@@ -231,7 +232,7 @@ function Home() {
                 <div className="space-y-6">
                   <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-red-600">
                     <h3 className="text-xl font-bold mb-3 text-gray-900">
-                      🏰 Diventa protagonista della storia
+                      🏛️ Diventa protagonista della storia
                     </h3>
                     <p className="text-gray-700">
                       Cammina nelle stesse strade di mercanti medievali, dormi
@@ -253,7 +254,7 @@ function Home() {
 
                   <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-600">
                     <h3 className="text-xl font-bold mb-3 text-gray-900">
-                      🎁 Zero stress, massimo risultato
+                      🥰 Zero stress, massimo risultato
                     </h3>
                     <p className="text-gray-700">
                       Noi organizziamo tutto: transfer, alloggi, esperienze,
@@ -304,9 +305,9 @@ function Home() {
                   Smetti di sognare. Inizia a vivere.
                 </h2>
                 <p className="text-gray-700 mb-6 text-lg leading-relaxed">
-                  Ogni giorno rimandi è un giorno in meno di magia. I borghi
-                  italiani esistono da secoli, ma non aspetteranno per sempre
-                  che tu li scopra.
+                  Ogni giorno rimandato è un giorno in meno di vita godereccia.
+                  I borghi italiani esistono da secoli, ma non aspetteranno per
+                  sempre che tu li scopra.
                 </p>
                 <p className="text-gray-700 mb-8 text-lg leading-relaxed">
                   <strong>Prossima partenza:</strong> seleziona la tua data
@@ -316,7 +317,7 @@ function Home() {
 
                 <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-6">
                   <p className="text-yellow-800 font-semibold">
-                    ⚡ Posti limitati: solo 10 partecipanti per gruppo per
+                    ⚡ Posti limitati: massimo 10 partecipanti per gruppo per
                     garantire un'esperienza esclusiva
                   </p>
                 </div>
@@ -377,7 +378,7 @@ function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h1 className="text-4xl font-bold mb-3">
-              Le storie che ci rendono fieri
+              Le storie che ci rendono fieri 🥹
             </h1>
             <p className="text-gray-600 text-lg">
               Quando le persone cambiano vita, noi sappiamo di aver fatto la
@@ -389,22 +390,22 @@ function Home() {
             {[
               {
                 name: "Marco D.",
-                job: "UX Designer",
-                location: "Milano → Borgo di Civita",
+                job: "E-Commerce Specialist",
+                location: "Verona → Ischia Ponte (NA)",
                 text: "Due settimane che hanno cambiato la mia percezione del lavoro. Ho prodotto più in quelle due settimane che in un mese in ufficio. E le amicizie che ho fatto sono impagabili.",
                 avatar: "M",
               },
               {
                 name: "Chiara M.",
                 job: "Marketing Manager",
-                location: "Roma → Borgo di Spello",
+                location: "Milano → Maiori (SA)",
                 text: "Non credevo fosse possibile conciliare produttività e benessere. Sbagliavo. Ora programmo almeno 3 viaggi all'anno con Vicus. È diventata la mia boccata d'aria.",
                 avatar: "C",
               },
               {
                 name: "Alessandro R.",
                 job: "Software Developer",
-                location: "Torino → Borgo di Montefioralle",
+                location: "Roma → Posada (NU)",
                 text: "La connessione era perfetta, il cibo incredibile, ma quello che mi ha colpito di più è stata l'energia del gruppo. Abbiamo fondato una startup insieme!",
                 avatar: "A",
               },
@@ -481,7 +482,7 @@ function Home() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">
-              Inizia la tua trasformazione
+              Inizia la tua avventura con Vicus
             </h2>
             <p className="text-gray-600">
               Compila il form e ti contatteremo entro 24 ore
@@ -489,15 +490,15 @@ function Home() {
           </div>
 
           {/* Placeholder per BorgoForm */}
-          <div className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-lg">
-            <div className="space-y-6">
-              <motion.div
-                whileInView={{ opacity: [0, 1], y: [30, 0] }}
-                transition={{ duration: 0.8 }}
-                viewport={{ once: true }}
-              >
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+          {/* <div className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+            <div className="space-y-6"> */}
+          <motion.div
+            whileInView={{ opacity: [0, 1], y: [30, 0] }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+          >
+            {/* <div>
+                  <label className="block text-sm font-medium text-gray-700 m-2">
                     Nome completo*
                   </label>
                   <input
@@ -506,7 +507,7 @@ function Home() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block text-sm font-medium text-gray-700 m-2">
                     Email*
                   </label>
                   <input
@@ -515,7 +516,7 @@ function Home() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block text-sm font-medium text-gray-700 m-2">
                     Professione*
                   </label>
                   <input
@@ -524,7 +525,7 @@ function Home() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block text-sm font-medium text-gray-700 m-2">
                     Quando vorresti partire?
                   </label>
                   <select className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent">
@@ -533,13 +534,14 @@ function Home() {
                     <option>Entro 6 mesi</option>
                   </select>
                 </div>
-                <button className="w-full bg-red-800 text-white py-4 rounded-lg font-semibold hover:bg-red-900 transition-colors">
-                  Prenota la tua avventura
-                </button>
-              </motion.div>
-            </div>
-          </div>
+                <button className="mt-8 w-full bg-red-800 text-white py-4 rounded-lg font-semibold hover:bg-red-900 transition-colors">
+                  Prenota la tua esperienza fuori dagli schemi
+                </button> */}
+            <Form />
+          </motion.div>
         </div>
+        {/* </div>
+        </div> */}
       </section>
     </motion.div>
   );

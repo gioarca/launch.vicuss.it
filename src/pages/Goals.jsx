@@ -163,9 +163,11 @@ function Goals() {
 
         {/* Call to Action */}
         <div className="text-center mt-16">
-          <button className="bg-gradient-to-r from-blue-600 to-green-600 text-white font-semibold py-4 px-8 rounded-full hover:from-blue-700 hover:to-green-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
-            Scopri di più sui nostri obiettivi
-          </button>
+          <a href="/about">
+            <button className="bg-gradient-to-r from-blue-600 to-green-600 text-white font-semibold py-4 px-8 rounded-full hover:from-blue-700 hover:to-green-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+              Scopri di più sui nostri obiettivi
+            </button>
+          </a>
         </div>
       </div>
 
