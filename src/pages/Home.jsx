@@ -83,7 +83,7 @@ function Home() {
         >
           Smart working + Slow living = La formula perfetta
         </motion.p>
-        //{" "}
+
         <motion.p
           className="text-lg text-gray-600  max-w-3xl mx-auto"
           initial={{ opacity: 0 }}
@@ -96,7 +96,7 @@ function Home() {
           per te.
         </motion.p>
         <motion.p
-          className="text-lg text-gray-900 font-bold max-w-3xl mx-auto"
+          className="text-lg text-gray-900 font-bold max-w-3xl mx-auto mt-4"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}
@@ -335,7 +335,7 @@ function Home() {
               viewport={{ once: true }}
               className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight"
             >
-              Il tuo ufficio con vista sta aspettando
+              Il tuo ufficio con vista ti sta aspettando
             </motion.h2>
             <motion.p
               whileInView={{ opacity: [0, 1], y: [30, 0] }}
@@ -353,7 +353,7 @@ function Home() {
                   Prenota il tuo posto ora
                 </button>
               </a>
-              <p className="text-sm mt-4 opacity-75">
+              <p className="text-sm mt-8 opacity-75">
                 💳 Pagamento sicuro • 🔄 Cancellazione gratuita fino a 7 giorni
                 prima
               </p>
@@ -378,11 +378,11 @@ function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h1 className="text-4xl font-bold mb-3">
-              Le storie che ci rendono fieri 🥹
+              Le persone che non vedono l'ora di partire 🥹
             </h1>
             <p className="text-gray-600 text-lg">
-              Quando le persone cambiano vita, noi sappiamo di aver fatto la
-              differenza
+              Quando le persone hanno maggiore consapevolezza della vita, noi
+              sappiamo di aver fatto la differenza
             </p>
           </div>
 
@@ -391,23 +391,23 @@ function Home() {
               {
                 name: "Marco D.",
                 job: "E-Commerce Specialist",
-                location: "Verona → Ischia Ponte (NA)",
-                text: "Due settimane che hanno cambiato la mia percezione del lavoro. Ho prodotto più in quelle due settimane che in un mese in ufficio. E le amicizie che ho fatto sono impagabili.",
+                location: "Verona",
+                text: "L'intervista fatta dal Founder di Vicus mi ha gasato tanto. Sono stato appassionato al progetto fin dal primo momento. Non vedo l'ora di partire!",
                 avatar: "M",
               },
               {
                 name: "Chiara M.",
                 job: "Marketing Manager",
-                location: "Milano → Maiori (SA)",
-                text: "Non credevo fosse possibile conciliare produttività e benessere. Sbagliavo. Ora programmo almeno 3 viaggi all'anno con Vicus. È diventata la mia boccata d'aria.",
+                location: "Milano",
+                text: "Non credevo fosse possibile conciliare produttività e benessere. Sbagliavo. Il Founder di Vicus mi ha aperto gli occhi su un nuovo modo di lavorare.",
                 avatar: "C",
               },
               {
-                name: "Alessandro R.",
-                job: "Software Developer",
-                location: "Roma → Posada (NU)",
-                text: "La connessione era perfetta, il cibo incredibile, ma quello che mi ha colpito di più è stata l'energia del gruppo. Abbiamo fondato una startup insieme!",
-                avatar: "A",
+                name: "Luca B.",
+                job: "Sales & Marketing",
+                location: "Mestre",
+                text: "Sento che Vicus può essere un grande cambiamento per me e per il paese. La cosa che non vedo l'ora di fare è lavorare in un team di persone che condividono i miei valori.",
+                avatar: "L",
               },
             ].map((testimonial, i) => (
               <div
@@ -454,7 +454,7 @@ function Home() {
             Unisciti a decine di professionisti
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            che hanno già trasformato il loro modo di lavorare
+            che vogliono trasformare il loro modo di lavorare
           </p>
           <p className="text-lg mb-10 opacity-80">
             🔥 <strong>Ultimi 3 posti disponibili</strong> per la prossima
@@ -490,53 +490,11 @@ function Home() {
           </div>
 
           {/* Placeholder per BorgoForm */}
-          {/* <div className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-lg">
-            <div className="space-y-6"> */}
           <motion.div
             whileInView={{ opacity: [0, 1], y: [30, 0] }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            {/* <div>
-                  <label className="block text-sm font-medium text-gray-700 m-2">
-                    Nome completo*
-                  </label>
-                  <input
-                    type="text"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 m-2">
-                    Email*
-                  </label>
-                  <input
-                    type="email"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 m-2">
-                    Professione*
-                  </label>
-                  <input
-                    type="text"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 m-2">
-                    Quando vorresti partire?
-                  </label>
-                  <select className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent">
-                    <option>Prossimo mese</option>
-                    <option>Entro 3 mesi</option>
-                    <option>Entro 6 mesi</option>
-                  </select>
-                </div>
-                <button className="mt-8 w-full bg-red-800 text-white py-4 rounded-lg font-semibold hover:bg-red-900 transition-colors">
-                  Prenota la tua esperienza fuori dagli schemi
-                </button> */}
             <Form />
           </motion.div>
         </div>
