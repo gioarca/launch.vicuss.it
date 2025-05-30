@@ -387,27 +387,51 @@ function Home() {
           </div>
 
           <div className="grid lg:grid-cols-3 gap-10">
-            {[
+            {/* {[
               {
                 name: "Marco D.",
                 job: "E-Commerce Specialist",
                 location: "Verona",
-                text: "L'intervista fatta dal Founder di Vicus mi ha gasato tanto. Sono stato appassionato al progetto fin dal primo momento. Non vedo l'ora di partire!",
+                text: "L'intervista fatta dal Founder di Vicus mi ha gasato tanto. Sono stato appassionato al progetto fin dal primo momento. Non vedo l'ora di vedere tutto il potenziale del progetto!",
                 avatar: "M",
               },
               {
                 name: "Chiara M.",
                 job: "Marketing Manager",
                 location: "Milano",
-                text: "Non credevo fosse possibile conciliare produttività e benessere. Sbagliavo. Il Founder di Vicus mi ha aperto gli occhi su un nuovo modo di lavorare.",
+                text: "Si parla tanto si work-life balance e per questo non vedo l'ora di vedere Vicus sul mercato: il Founder durante l'intervista mi ha aperto gli occhi su un nuovo modo di vivere lavorando.",
                 avatar: "C",
               },
               {
                 name: "Luca B.",
                 job: "Sales & Marketing",
                 location: "Mestre",
-                text: "Sento che Vicus può essere un grande cambiamento per me e per il paese. La cosa che non vedo l'ora di fare è lavorare in un team di persone che condividono i miei valori.",
+                text: "Siamo ancora in fase pre-lancio, ma l’entusiasmo nel team è alle stelle. Immagino già Vicus sul mercato: un cambiamento potente per noi e per il territorio, e non vedo l’ora di farne parte!",
                 avatar: "L",
+              },
+            ].*/}
+
+            {[
+              {
+                name: "Marco D.",
+                job: "E-Commerce Specialist",
+                location: "Verona",
+                avatar: "M",
+                text: "Anche se siamo ancora nella fase pre-lancio, sento già l’energia di Vicus: un’oasi pensata per noi remote worker che vogliamo disconnetterci davvero. Non vedo l’ora di testare gli spazi pensati per ricaricare mente e corpo, lontano dallo schermo ma connessi solo all’essenziale!",
+              },
+              {
+                name: "Chiara M.",
+                job: "Marketing Manager",
+                location: "Milano",
+                avatar: "C",
+                text: "Ancora prima della partenza ufficiale, ho già capito che Vicus sarà il mio rifugio ideale: lavoro smart di giorno, detox digitale di sera. Un progetto costruito per chi, come me, lavora da ovunque ma sogna di ritrovare il contatto vero con sé stesso e con gli altri.",
+              },
+              {
+                name: "Luca B.",
+                job: "Sales & Marketing",
+                location: "Mestre",
+                avatar: "L",
+                text: "Siamo agli albori di Vicus e già si respira la voglia di cambiare ritmo: per noi remote worker è la promessa di un’esperienza unica, dove il digitale cede il passo al benessere. Non vedo l’ora di unirmi al team e condividere momenti di vita offline, senza perdere un colpo sul lavoro.",
               },
             ].map((testimonial, i) => (
               <div
