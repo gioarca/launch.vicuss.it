@@ -52,7 +52,7 @@ function Thanks() {
           </Link>{" "}
           o sul{" "}
           <Link to="/" className="text-red-500 font-medium hover:underline">
-            logo Vicus
+            logo in alto a sinistra
           </Link>
           .
         </p>

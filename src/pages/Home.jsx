@@ -76,7 +76,7 @@ function Home() {
           Lavora dai borghi più belli d'Italia
         </motion.h1>
         <motion.p
-          className="text-xl font-medium text-red-700 mb-4"
+          className="text-l font-medium text-red-700 mb-4"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4 }}
@@ -141,16 +141,17 @@ function Home() {
                 Perché scegliere i piccoli comuni italiani?
               </h2>
               <p className="text-gray-700 mb-6 text-lg leading-relaxed">
-                Immagina di aprire il laptop con vista su colline toscane, di
-                fare una pausa caffè in una piazzetta medievale, di concludere
-                la giornata con un aperitivo al tramonto.
+                Immagina di aprire il laptop con vista sulle colline toscane, di
+                fare una pausa caffè in una piazzetta storica con i tuoi
+                colleghi, di concludere la giornata con una cena tutti insieme
+                al tramonto.
                 <strong> Questo è il futuro del lavoro.</strong>
               </p>
               <p className="text-gray-700 mb-8 text-lg leading-relaxed">
-                Vicus trasforma il tuo smart working in un'avventura:
-                selezioniamo i luoghi più affascinanti d'Italia, garantiamo
-                connessione perfetta e organizziamo esperienze uniche che solo i
-                locali conoscono.
+                Vicus trasforma lo smart working in un'avventura: selezioniamo i
+                luoghi più affascinanti d'Italia, garantiamo connessione
+                perfetta e organizziamo esperienze uniche che solo i locali
+                conoscono.
               </p>
               <div className="bg-red-50 rounded-lg p-6 mb-8">
                 <h3 className="text-xl font-bold text-red-800 mb-4">
@@ -164,7 +165,8 @@ function Home() {
                         Smart Working Perfetto
                       </h4>
                       <p className="text-gray-700 text-sm">
-                        Fibra ottica garantita, spazi di co-working attrezzati
+                        Internet veloce garantito, spazi di co-working
+                        attrezzati
                       </p>
                     </div>
                   </div>
@@ -276,6 +278,15 @@ function Home() {
                   className="w-full h-auto rounded-lg shadow-xl"
                   alt={sections[1].alt}
                 />
+                <p>
+                  Nell'immagine siamo a{" "}
+                  <a
+                    className="text-red-800 text-s"
+                    href="https://www.google.it/maps/place/80074+Casamicciola+Terme+NA/@40.7447936,13.8906745,14z/data=!3m1!4b1!4m6!3m5!1s0x133b401ca4b834f5:0xeb42065662747f82!8m2!3d40.7491439!4d13.9104975!16zL20vMGduMzMy?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D"
+                  >
+                    Casamicciola Terme
+                  </a>
+                </p>
               </motion.div>
             </div>
           </div>

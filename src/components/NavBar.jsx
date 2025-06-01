@@ -37,7 +37,7 @@ function NavBar({ contactRef }) {
                   className="h-8 w-auto group-hover:scale-110 transition-transform duration-200"
                 />
                 <span className="text-xl font-semibold tracking-tight text-gray-800 group-hover:text-red-600 transition-colors duration-200">
-                  Vicus
+                  Vicuss
                 </span>
               </a>
             </div>
@@ -111,7 +111,7 @@ function NavBar({ contactRef }) {
                     href="/about"
                     className="px-2 py-2 text-gray-700 hover:bg-gray-50 rounded-md hover:text-red-600 transition-colors"
                   >
-                    Che cos'è Vicus?
+                    Che cos'è Vicuss?
                   </a>
                   <a
                     href="/goals"
