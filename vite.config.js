@@ -2,6 +2,7 @@
 import { defineConfig, loadEnv } from "vite";
 import reactPlugin from "@vitejs/plugin-react"; // <– nota il nome diverso
 import path from "path";
+import tailwindcss from "@tailwindcss/vite";
 
 export default ({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "VITE_");
@@ -24,6 +25,7 @@ export default ({ mode }) => {
     },
     plugins: [
       reactPlugin(), // <– invocazione corretta
+      tailwindcss(), // Aggiungi il plugin Tailwind CSS
     ],
     server: {
       port: Number(env.VITE_DEV_PORT) || 3000,
